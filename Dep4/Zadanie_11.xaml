@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Dep4"
         mc:Ignorable="d"
-        Title="Zadanie_11" Height="289.235" Width="184.929" ResizeMode="NoResize">
+        Title="Zadanie_11" Height="289.235" Width="173.446" ResizeMode="NoResize">
     <Grid >
         <Grid >
             <Menu Height="25" VerticalAlignment="Top">
@@ -33,10 +33,10 @@
 
                 </MenuItem>
                 <MenuItem Header="Правка"/>
-                <MenuItem Header="Справка"/>
+                <MenuItem Header="Выход" Click="MenuItem_Click"/>
             </Menu>
         </Grid>
-        <Grid Margin="10 30 10 0 ">
+        <Grid Margin="10 30 10 0 " MaxWidth="150" HorizontalAlignment="Left">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="Auto"/>
@@ -57,13 +57,14 @@
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
-            <TextBlock  Grid.Column="0" Grid.Row="0" Margin="10px" x:Name="label1"></TextBlock>
-            <TextBox Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="5"  Height="50" Margin="3" x:Name="TextKal">
+            
+            <TextBox Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="5"  Height="50" Margin="3" >
+
 
 
             </TextBox>
-            
-
+            <TextBlock Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="3"  Height="50" Margin="3" x:Name="label1" ></TextBlock>
+            <TextBox Grid.Column="3" Grid.ColumnSpan="2"  Height="50" Margin="3"  x:Name="TextKal" ></TextBox>
 
             <Button Grid.Column="0" Grid.Row="2" Content="MC" Margin="3"/>
             <Button Grid.Column="1" Grid.Row="2" Content="MR" Margin="3"/>
@@ -72,11 +73,11 @@
             <Button Grid.Column="4" Grid.Row="2" Content="M-" Margin="3" />
 
 
-            <Button Grid.Column="0" Grid.Row="3" Margin="3" MaxWidth="25" >
+            <Button Grid.Column="0" Grid.Row="3" Margin="3" MaxWidth="25" Click="Delll">
                 <Image Source="Image\Безымянный.png" />
             </Button>
             <Button Grid.Column="1" Grid.Row="3" Content="CE" Margin="3"/>
-            <Button Grid.Column="2" Grid.Row="3" Content="C" Margin="3"/>
+            <Button Grid.Column="2" Grid.Row="3" Content="C" Margin="3" Click="Dell"/>
             <Button Grid.Column="3" Grid.Row="3"  Margin="3" MaxWidth="25">
                 <Image Source="Image\5.png"/>
             </Button>

@@ -11,8 +11,8 @@
             <TextBox Text="Eliment derevo || Zadanie_11" TextChanged="TextBox_TextChanged"></TextBox>
             <TreeViewItem Header="Base">
                 <TreeViewItem Header="MS Sql Ser"></TreeViewItem>
-                 <TreeViewItem Header="MY Sql Ser"></TreeViewItem>
-                 <TreeViewItem Header="Oracle"></TreeViewItem>
+                <TreeViewItem Header="MY Sql Ser"></TreeViewItem>
+                <TreeViewItem Header="Oracle"></TreeViewItem>
             </TreeViewItem>
             <TreeViewItem Header="Asiki">
                 <TreeViewItem Header="(C) podobnie asiki" Expanded="TreeViewItem_Expanded">
@@ -25,10 +25,11 @@
                 <TreeViewItem Header="(Basik) podobnie asiki">
                     <TreeViewItem Header="Basik"></TreeViewItem>
                     <TreeViewItem Header="VB"></TreeViewItem>
-                
+
                 </TreeViewItem>
-                
+
             </TreeViewItem>
+
         </TreeView>
     </Grid>
 </Window>

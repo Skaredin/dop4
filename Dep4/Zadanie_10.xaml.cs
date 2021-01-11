@@ -42,5 +42,7 @@ namespace Dep4
             Zadanie_11 zadanie_11 = new Zadanie_11();
             zadanie_11.Show();
         }
+
+    
     }
 }
