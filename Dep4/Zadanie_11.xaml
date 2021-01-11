@@ -57,7 +57,12 @@
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
-            <TextBox Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="5" Grid.Row="0" Height="50" Margin="3" x:Name="TextKal"/>
+            <TextBlock  Grid.Column="0" Grid.Row="0" Margin="10px" x:Name="label1"></TextBlock>
+            <TextBox Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="5"  Height="50" Margin="3" x:Name="TextKal">
+
+
+            </TextBox>
+            
 
 
             <Button Grid.Column="0" Grid.Row="2" Content="MC" Margin="3"/>

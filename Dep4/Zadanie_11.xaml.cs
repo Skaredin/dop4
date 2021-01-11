@@ -63,5 +63,63 @@ namespace Dep4
         {
             TextKal.Text = TextKal.Text + 7;
         }
+
+        private void Vo(object sender, RoutedEventArgs e)
+        {
+            TextKal.Text = TextKal.Text + 8;
+        }
+
+        private void De(object sender, RoutedEventArgs e)
+        {
+            TextKal.Text = TextKal.Text + 9;
+        }
+
+        private void Zap(object sender, RoutedEventArgs e)
+        {
+            TextKal.Text = TextKal.Text + ",";
+        }
+        
+        float a, b;
+        int count;
+        bool znak = true;
+
+      
+
+        private void Plu(object sender, RoutedEventArgs e)
+        {
+            a = float.Parse(TextKal.Text);
+            TextKal.Clear();
+            count = 1;
+            label1.Text = a.ToString() + "+";
+            znak = true;
+        }
+
+        private void Pro(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Min(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Rav(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Umn(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Del(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+
+
     }
 }
