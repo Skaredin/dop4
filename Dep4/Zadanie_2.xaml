@@ -1,0 +1,17 @@
+﻿<Window x:Class="Dep4.Zadanie_2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dep4"
+        mc:Ignorable="d"
+        Title="Zadanie_2" Height="450" Width="800">
+    <StackPanel>
+        <ListBox Name="list" SelectionChanged="list_SelectionChanged">
+            
+        </ListBox>
+        
+        <Button x:Name="AddButSoobs_Copy" Click="AddButSoobs_Copy_Click"  Content="Zadanie 3 "  Height="30" Margin="280,0,277,10"/>
+
+    </StackPanel>
+</Window>

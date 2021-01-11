@@ -1,0 +1,46 @@
+﻿<Window x:Class="Dep4.Zadanie_5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dep4"
+        mc:Ignorable="d"
+        Title="Zadanie_5" Height="450" Width="800">
+    <StackPanel>
+        <ComboBox Name="Anim" Height="30" VerticalAlignment="Top">
+            <TextBlock Text="Volk" Background="Salmon"/>
+            <TextBlock Text="Volk" Background="Red"/>
+            <TextBlock Text="Volk" Background="PaleTurquoise"/>
+            <TextBlock Text="Volk"/>
+        </ComboBox>
+        <ComboBox Name="Anim1" SelectionChanged="Anim1_SelectionChanged" Height="60" VerticalAlignment="Top">
+            <ComboBoxItem IsSelected="True">
+                <StackPanel Orientation="Horizontal">
+
+                    <Image Source="Image\1.gif" Width="60"></Image>
+                    <TextBlock Text="Xorek"></TextBlock>
+                    
+                </StackPanel>
+               
+            </ComboBoxItem>
+            <ComboBoxItem >
+                <StackPanel Orientation="Horizontal">
+
+                    <Image Source="Image\2.gif" Width="60"></Image>
+                    <TextBlock Text="Xorek"></TextBlock>
+
+                </StackPanel>
+
+            </ComboBoxItem>
+            <ComboBoxItem >
+                <StackPanel Orientation="Horizontal">
+
+                    <Image Source="Image\3.gif" Width="60"></Image>
+                    <TextBlock Text="Xorek"></TextBlock>
+
+                </StackPanel>
+
+            </ComboBoxItem>
+        </ComboBox>
+    </StackPanel>
+</Window>
