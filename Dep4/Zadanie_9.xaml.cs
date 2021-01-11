@@ -23,5 +23,12 @@ namespace Dep4
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            Zadanie_10 zadanie_10 = new Zadanie_10();
+            zadanie_10.Show();
+        }
     }
 }

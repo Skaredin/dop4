@@ -7,6 +7,33 @@
         mc:Ignorable="d"
         Title="Zadanie_9" Height="450" Width="800">
     <StackPanel>
+        <ToolBar Height="25" VerticalContentAlignment="Top">
+            <ToggleButton>
+                <Image Source="Image\1.gif"/>
+                
+
+            </ToggleButton>
+            <TextBlock>Kopu</TextBlock>
+            <Separator/>
+            <ToggleButton>
+                <Image Source="Image\2.gif"/>
+
+
+            </ToggleButton>
+            <TextBlock>Virisat</TextBlock>
+            <Separator/>
+            <Separator/>
+            <ToggleButton>
+                <Image Source="Image\3.gif"/>
+                
+
+            </ToggleButton>
+            <TextBlock>Stavit</TextBlock>
+            <Separator/>
+        </ToolBar>
+        
+        
+        
         <Button Height="30" Content="Est kont menu">
             <Button.ContextMenu>
                 <ContextMenu>
@@ -17,5 +44,6 @@
             </Button.ContextMenu>
 
         </Button>
+        <Button BorderBrush="Black" Content="Zadanie 10"  BorderThickness="1" Height="100" Click="Button_Click"/>
     </StackPanel>
 </Window>

@@ -8,7 +8,7 @@
         Title="Zadanie_8" Height="450" Width="800">
     <Grid>
         <Menu Height="25" VerticalAlignment="Top">
-            <MenuItem Header="File">
+            <MenuItem Header="File" Click="MenuItem_Click_1">
                 <MenuItem Header="Sozdat..."/>
                 <MenuItem Header="Otcrit...">
 
