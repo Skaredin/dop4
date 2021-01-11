@@ -85,30 +85,30 @@
 
 
 
-            <Button Grid.Column="0" Grid.Row="4" Content="7" Margin="3" Click="Sem"  Background="#e8eff8"/>
-            <Button Grid.Column="1" Grid.Row="4" Content="8" Margin="3" Click="Vo" Background="#e8eff8"/>
-            <Button Grid.Column="2" Grid.Row="4" Content="9" Margin="3" Click="De" Background="#e8eff8"/>
+            <Button Grid.Column="0" Grid.Row="4" Content="7" Margin="3" Click="Sem"  Background="#eef2f9"/>
+            <Button Grid.Column="1" Grid.Row="4" Content="8" Margin="3" Click="Vo" Background="#eef2f9"/>
+            <Button Grid.Column="2" Grid.Row="4" Content="9" Margin="3" Click="De" Background="#eef2f9"/>
             <Button Grid.Column="3" Grid.Row="4" Content="/" Margin="3" Click="Del" Background="#e8eff8"/>
             <Button Grid.Column="4" Grid.Row="4" Content="%" Margin="3" Click="Pro" Background="#e8eff8"/>
 
 
-            <Button Grid.Column="0" Grid.Row="5" Content="4" Margin="3" Click="Ce" Background="#e8eff8"/>
-            <Button Grid.Column="1" Grid.Row="5" Content="5" Margin="3" Click="Pa" Background="#e8eff8"/>
-            <Button Grid.Column="2" Grid.Row="5" Content="6" Margin="3" Click="Se" Background="#e8eff8"/>
+            <Button Grid.Column="0" Grid.Row="5" Content="4" Margin="3" Click="Ce" Background="#eef2f9"/>
+            <Button Grid.Column="1" Grid.Row="5" Content="5" Margin="3" Click="Pa" Background="#eef2f9"/>
+            <Button Grid.Column="2" Grid.Row="5" Content="6" Margin="3" Click="Se" Background="#eef2f9"/>
             <Button Grid.Column="3" Grid.Row="5" Content="*" Margin="3" Click="Umn" Background="#e8eff8"/>
             <Button Grid.Column="4" Grid.Row="5"  Margin="3" MaxWidth="25" Background="#e8eff8">
                 <Image Source="Image\6.png"/>
             </Button>
 
-            <Button Grid.Column="0" Grid.Row="6" Content="1" Margin="3" Click="Ed" Background="#e8eff8"/>
-            <Button Grid.Column="1" Grid.Row="6" Content="2" Margin="3" Click="Dv" Background="#e8eff8"/>
-            <Button Grid.Column="2" Grid.Row="6" Content="3" Margin="3,3,0,3" Click="Tr" HorizontalAlignment="Left" Width="22" Background="#e8eff8"/>
+            <Button Grid.Column="0" Grid.Row="6" Content="1" Margin="3" Click="Ed" Background="#eef2f9"/>
+            <Button Grid.Column="1" Grid.Row="6" Content="2" Margin="3" Click="Dv" Background="#eef2f9"/>
+            <Button Grid.Column="2" Grid.Row="6" Content="3" Margin="3,3,0,3" Click="Tr" HorizontalAlignment="Left" Width="22" Background="#eef2f9"/>
             <Button Grid.Column="3" Grid.Row="6" Content="-" Margin="3" Click="Min" Background="#e8eff8"/>
             <Button Grid.Column="4" Grid.Row="6" Grid.RowSpan="2"  Content="="  Margin="3" Click="Rav" Background="#e8eff8"/>
 
-            <Button Grid.ColumnSpan="2" Grid.Row="7" Content="0" Margin="3" Click="Nul" Background="#e8eff8"/>
-            <Button Grid.Column="2" Grid.Row="7" Content="," Margin="3" Click="Zap" Background="#e8eff8"/>
-            <Button Grid.Column="3" Grid.Row="7" Content="+" Margin="3" Click="Plu" Background="#e8eff8"/>
+            <Button Grid.ColumnSpan="2" Grid.Row="7" Content="0" Margin="3" Click="Nul" Background="#eef2f9"/>
+            <Button Grid.Column="2" Grid.Row="7" Content="," Margin="3" Click="Zap" Background="#eef2f9"/>
+            <Button Grid.Column="3" Grid.Row="7" Content="+" Margin="3" Click="Plu" Background="#eef2f9"/>
         </Grid>
     </Grid>
 </Window>
