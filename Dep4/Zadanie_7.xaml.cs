@@ -15,26 +15,20 @@ using System.Windows.Shapes;
 namespace Dep4
 {
     /// <summary>
-    /// Логика взаимодействия для Zadanie_5.xaml
+    /// Логика взаимодействия для Zadanie_7.xaml
     /// </summary>
-    public partial class Zadanie_5 : Window
+    public partial class Zadanie_7 : Window
     {
-        public Zadanie_5()
+        public Zadanie_7()
         {
             InitializeComponent();
         }
 
-        private void Anim1_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            MessageBox.Show("Ilement vibron!!!!");
-
-        }
-
-        private void AddButSoobs_Copy_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Hide();
-            Zadanie_6 zadanie_6 = new Zadanie_6();
-            zadanie_6.Show();
+            Zadanie_8 zadanie_8 = new Zadanie_8();
+            zadanie_8.Show();
         }
     }
 }

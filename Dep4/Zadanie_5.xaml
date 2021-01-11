@@ -42,5 +42,7 @@
 
             </ComboBoxItem>
         </ComboBox>
+        <Button x:Name="AddButSoobs_Copy" Click="AddButSoobs_Copy_Click"  Content="Zadanie 6 "  Height="30" Margin="280,0,277,10"/>
+   
     </StackPanel>
 </Window>
